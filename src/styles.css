@@ -21,6 +21,11 @@
  */
 
 @theme inline {
+  --color-gold: var(--gold);
+  --color-wine: var(--wine);
+  --color-night: var(--night);
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
