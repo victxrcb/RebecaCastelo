@@ -355,7 +355,7 @@ function Performances() {
                   />
                 ) : (
                   <img
-                    src={p.img}
+                    src={rebeca8}
                     alt={p.title}
                     loading="lazy"
                     width={768}
