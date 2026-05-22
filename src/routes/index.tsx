@@ -444,9 +444,9 @@ function Events() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.7, delay: i * 0.1 }}
-                className="group relative bg-gradient-to-br from-zinc-900/80 to-zinc-950 p-10 md:p-12 transition-all duration-500 hover:from-zinc-800/90 hover:to-zinc-900 border-b border-r border-gold/10 last:border-b-0 lg:last:border-b lg:last:border-r-0"
+                className="group relative bg-gradient-to-br from-zinc-900/80 to-zinc-950 p-10 md:p-12 transition-all duration-500 border-b border-r border-gold/10 last:border-b-0 lg:last:border-b lg:last:border-r-0 hover:border-gold/30 hover:bg-white/5 hover:shadow-[0_0_30px_rgba(197,160,89,0.18)]"
               >
-                <div className="absolute inset-0 bg-gradient-to-br from-gold/5 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100 rounded-lg" />
+                <div className="absolute inset-0 bg-gradient-to-br from-gold/15 via-gold/5 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100 rounded-lg" />
                 <div className="relative z-10">
                   <div className="mb-8 flex size-14 items-center justify-center border border-gold/40 transition-all duration-500 group-hover:scale-110 group-hover:border-gold/80 group-hover:shadow-lg group-hover:shadow-gold/20 rounded-lg">
                     <Icon
