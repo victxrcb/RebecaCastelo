@@ -253,12 +253,14 @@ function About({ sectionRef }: { sectionRef?: RefObject<HTMLElement | null> }) {
             transition={{ duration: 0.8 }}
             className="mb-8 max-w-2xl text-base leading-8 text-zinc-300 md:text-lg text-premium"
           >
-            <span className="font-medium text-foreground">Rebeca Castelo</span> é a interpretação contemporânea dos
-            <span className="text-gold/90 font-medium"> grandes clássicos</span> da MPB e do Jazz. Com presença de
-            <span className="text-gold/80 font-medium"> palco magnética</span> e
-            <span className="text-gold/90 font-medium"> timbre íntimo</span>, transforma cada apresentação em uma
-            experiência <span className="text-gold/80 font-medium">cinematográfica</span> — feita sob medida para o momento, o
-            público e a história a ser contada.
+            <span className="font-medium text-foreground">Rebeca Castelo é a tradução da 
+              <span className="italic text-gold/90"> Música </span> 
+              em cada verso. em
+               <span className="italic text-gold/90"> emoção </span> e 
+               <span className="italic text-gold/90"> presença. </span>
+              Com um timbre marcante e uma presença de palco envolvente, transforma cada apresentação em uma experiência
+               <span className="italic text-gold/90"> única </span> e 
+                <span className="italic text-gold/90"> memorável </span> — passeando com naturalidade por diferentes estilos musicais para criar a atmosfera perfeita para cada momento, público e história a ser vivida.</span>
           </motion.p>
           <motion.p
             variants={fadeUp}
