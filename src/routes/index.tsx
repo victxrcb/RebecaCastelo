@@ -43,13 +43,13 @@ import music3 from "@/assets/music3.mp4";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Rebeca Castelo — Cantora | Contratação para Eventos" },
+      { title: "Rebeca Astela — Cantora | Contratação para Eventos" },
       {
         name: "description",
         content:
-          "Rebeca Castelo — cantora brasileira de Jazz e MPB. Voz cinematográfica para casamentos, eventos corporativos, bares e celebrações privadas. Contrate agora.",
+          "Rebeca Astela — cantora brasileira de Jazz e MPB. Voz cinematográfica para casamentos, eventos corporativos, bares e celebrações privadas. Contrate agora.",
       },
-      { property: "og:title", content: "Rebeca Castelo — Cantora" },
+      { property: "og:title", content: "Rebeca Astela — Cantora" },
       {
         property: "og:description",
         content:
@@ -157,7 +157,7 @@ function Nav({ scrolled, active }: { scrolled: boolean; active: string }) {
             href="#inicio"
             className="font-serif text-xl italic tracking-tight text-gold transition-opacity hover:opacity-80 md:text-2xl"
           >
-            Rebeca Castelo
+            Rebeca Astela
           </a>
 
           <ul className="hidden items-center gap-1 text-[11px] font-medium uppercase tracking-[0.22em] md:flex">
@@ -220,7 +220,7 @@ function Nav({ scrolled, active }: { scrolled: boolean; active: string }) {
             aria-label="Menu"
           >
             <div className="flex items-center justify-between">
-              <span className="font-serif text-xl italic text-gold">Rebeca Castelo</span>
+              <span className="font-serif text-xl italic text-gold">Rebeca Astela</span>
               <button
                 type="button"
                 onClick={() => setOpen(false)}
@@ -338,7 +338,7 @@ function Hero() {
       <motion.div style={{ y: bgY, scale: bgScale }} className="absolute inset-0 z-0">
         <img
           src={rebeca1}
-          alt="Rebeca Castelo — retrato cinematográfico"
+          alt="Rebeca Astela — retrato cinematográfico"
           width={1536}
           height={1920}
           fetchPriority="high"
@@ -367,10 +367,10 @@ function Hero() {
         </motion.p>
 
         <h1
-          aria-label="Rebeca Castelo"
+          aria-label="Rebeca Astela"
           className="font-heading-bold text-6xl italic leading-[0.95] text-foreground drop-shadow-2xl sm:text-7xl md:text-8xl lg:text-[9.5rem]"
         >
-          <SplitTitle text="Rebeca Castelo" delay={0.3} />
+          <SplitTitle text="Rebeca Astela" delay={0.3} />
         </h1>
 
         <motion.p
@@ -495,7 +495,7 @@ function About() {
             <motion.img
               style={{ y: imgY, scale: 1.12 }}
               src={rebeca3}
-              alt="Rebeca Castelo em retrato artístico"
+              alt="Rebeca Astela em retrato artístico"
               loading="lazy"
               width={1024}
               height={1280}
@@ -525,7 +525,7 @@ function About() {
             <div>
               <p className="text-[10px] uppercase tracking-[0.3em] text-gold/70">Ao vivo</p>
               <p className="flex items-center gap-1.5 text-sm text-foreground">
-                <MapPin className="size-3.5 text-gold" /> Campina Grande — PB
+                <MapPin className="size-3.5 text-gold" /> Campina Grande e região.
               </p>
             </div>
           </motion.div>
@@ -553,7 +553,7 @@ function About() {
             transition={{ duration: 0.8 }}
             className="text-premium mb-8 max-w-[60ch] text-pretty text-base text-zinc-300 md:text-lg"
           >
-            Rebeca Castelo é a tradução da <span className="italic text-gold/90">música</span> em{" "}
+            Rebeca Astela é a tradução da <span className="italic text-gold/90">música</span> em{" "}
             <span className="italic text-gold/90">emoção</span> e{" "}
             <span className="italic text-gold/90">presença</span>. Com um timbre marcante e uma
             presença de palco envolvente, transforma cada apresentação em uma experiência{" "}
@@ -592,7 +592,7 @@ function About() {
                 "Versatilidade musical, interpretando diversos estilos de acordo com o evento e solicitação do contratante.",
               ],
               ["Especialidade", "Cantora para eventos e performances intimistas"],
-              ["Regiões", "Campina Grande - PB"],
+              ["Regiões", "Campina Grande e região."],
             ].map(([label, value]) => (
               <div
                 key={label}
@@ -824,14 +824,14 @@ const galleryItems = [
   {
     img: rebeca6,
     span: "col-span-2 row-span-2",
-    alt: "Rebeca Castelo em ensaio fotográfico",
+    alt: "Rebeca Astela em ensaio fotográfico",
   },
-  { img: rebeca4, span: "", alt: "Rebeca Castelo em retrato" },
-  { img: rebeca5, span: "", alt: "Rebeca Castelo em apresentação" },
+  { img: rebeca4, span: "", alt: "Rebeca Astela em retrato" },
+  { img: rebeca5, span: "", alt: "Rebeca Astela em apresentação" },
   {
     img: rebeca8,
     span: "col-span-2",
-    alt: "Rebeca Castelo no palco",
+    alt: "Rebeca Astela no palco",
     objectPosition: "object-[center_30%]",
   },
 ];
@@ -1266,7 +1266,7 @@ function Footer() {
       >
         <div className="mb-16 flex flex-col items-start justify-between gap-10 md:flex-row md:items-end">
           <div>
-            <p className="font-heading mb-4 text-5xl italic md:text-6xl">Rebeca Castelo</p>
+            <p className="font-heading mb-4 text-5xl italic md:text-6xl">Rebeca Astela</p>
             <p className="max-w-md text-sm font-light leading-7 text-zinc-400">
               A trilha sonora dos <span className="font-medium text-gold/80">momentos</span> que
               merecem ser <span className="font-medium text-gold/90">eternizados</span>.
@@ -1296,7 +1296,7 @@ function Footer() {
 
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
           <p className="text-[10px] font-semibold uppercase tracking-[0.3em] text-zinc-600">
-            © {new Date().getFullYear()} Rebeca Castelo — Arte em Performance
+            © {new Date().getFullYear()} Rebeca Astela — Arte em Performance
           </p>
           <a
             href="#inicio"
