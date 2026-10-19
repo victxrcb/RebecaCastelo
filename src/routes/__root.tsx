@@ -10,6 +10,8 @@ import {
 } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
+import faviconSvg from "../assets/favicon.svg?url";
+import appleTouchIcon from "../assets/apple-touch-icon.png?url";
 
 function NotFoundComponent() {
   return (
@@ -83,6 +85,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
+      { rel: "icon", type: "image/svg+xml", href: faviconSvg },
+      { rel: "apple-touch-icon", href: appleTouchIcon },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
